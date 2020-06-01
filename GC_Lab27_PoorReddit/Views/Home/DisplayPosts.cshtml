@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewData["Title"] = "Display Posts";
+}
+
+<h1>Display Posts</h1>
+
+
+@model List<RedditPost>
+
+@if (Model != null)
+{
+    foreach (var post in Model)
+    {
+        <div class="table-bordered">
+            @{string url = $"https://www.reddit.com{post.permalink}";
+            }
+            <a href="@url"><h3>@post.title</h3></a>
+            <img src="@post.url" width="500" margin-left="auto" margin-right="auto" />
+        </div>
+
+
+    }
+
+
+
+}
+
+<a href="/Home/SubredditSearch">Search for a Subreddit</a>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GC_Lab27_PoorReddit", "GC_Lab27_PoorReddit\GC_Lab27_PoorReddit.csproj", "{0F8E71F1-B943-4378-80F1-9406771F8CEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F8E71F1-B943-4378-80F1-9406771F8CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F8E71F1-B943-4378-80F1-9406771F8CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F8E71F1-B943-4378-80F1-9406771F8CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F8E71F1-B943-4378-80F1-9406771F8CEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F01EBD86-A0B3-4324-8B19-0C3EAA6E75CD}
+	EndGlobalSection
+EndGlobal
